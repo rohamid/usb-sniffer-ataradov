@@ -1,0 +1,2 @@
+# USB Sniffer #
+This repository is for modified hardware of [ataradov's USB-sniffer](https://github.com/ataradov/usb-sniffer). I re-design this hardware because I don't want to use the 3d print case. I like to use the aluminum case.
