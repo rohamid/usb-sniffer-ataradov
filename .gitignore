@@ -28,6 +28,11 @@ fp-info-cache
 *.xml
 *.csv
 
+
+*.lck
+
+*#auto_saved_files#
+
 # User folder
 /B.O.M
 /bom
