@@ -680,6 +680,10 @@
     [
       "9829920e-608c-48b7-8757-c2106f457830",
       "Host USB"
+    ],
+    [
+      "b5216191-d8ed-4577-8b5b-659aa0680aa4",
+      "Target USB"
     ]
   ],
   "text_variables": {}

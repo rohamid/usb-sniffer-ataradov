@@ -2188,6 +2188,12 @@
 		(uuid "8f1987ff-2bf1-45e4-9d80-ce7107900def")
 	)
 	(junction
+		(at 92.71 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a479d16e-667e-4cef-839f-992ae1675d52")
+	)
+	(junction
 		(at 102.87 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2463,6 +2469,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 91.44) (xy 92.71 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b396a4-e408-4cdf-bf6f-25952234c753")
+	)
+	(wire
+		(pts
 			(xy 21.59 184.15) (xy 21.59 181.61)
 		)
 		(stroke
@@ -2540,6 +2556,16 @@
 			(type default)
 		)
 		(uuid "4e684da6-bbb6-4d88-854e-25c6ce03d419")
+	)
+	(wire
+		(pts
+			(xy 92.71 72.39) (xy 92.71 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51f12e04-ca64-45d5-992d-87e8200b02e2")
 	)
 	(wire
 		(pts
@@ -2650,6 +2676,16 @@
 			(type default)
 		)
 		(uuid "5fdeb279-ab63-48bc-abde-7b90c7dc5fa0")
+	)
+	(wire
+		(pts
+			(xy 92.71 81.28) (xy 102.87 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "607959d4-28bb-4495-84ff-83751a08e4dd")
 	)
 	(wire
 		(pts
@@ -3033,6 +3069,16 @@
 	)
 	(wire
 		(pts
+			(xy 92.71 81.28) (xy 92.71 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b365385d-8f42-4ff9-9768-8a1a818546d7")
+	)
+	(wire
+		(pts
 			(xy 55.88 173.99) (xy 55.88 176.53)
 		)
 		(stroke
@@ -3120,6 +3166,16 @@
 			(type default)
 		)
 		(uuid "c8f00c89-ef4d-4ff6-ae34-53aece7807f3")
+	)
+	(wire
+		(pts
+			(xy 92.71 78.74) (xy 92.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cabe7420-c27a-4830-8e7f-743c6d90d0c2")
 	)
 	(wire
 		(pts
@@ -3320,6 +3376,17 @@
 			(type default)
 		)
 		(uuid "fffacaac-8dda-4970-8d5f-ce61ea8bfc49")
+	)
+	(label "~{RESET}"
+		(at 102.87 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "08b3067b-8184-4cdc-97fb-3ccb0433b23f")
 	)
 	(label "SCL"
 		(at 257.81 118.11 180)
@@ -3831,6 +3898,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 92.71 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03518650-15c9-4819-aebd-3d77c4e534e6")
+		(property "Reference" "#PWR033"
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 92.71 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 92.71 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "001ca4a8-bbac-49b2-b202-47815bddda9b")
+		)
+		(instances
+			(project "usb-sniffer"
+				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 21.59 179.07 0)
 		(unit 1)
@@ -3963,6 +4096,76 @@
 			(project "usb-sniffer"
 				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
+		(at 92.71 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10f9f0e2-a13e-4721-883c-2c2e5cb11210")
+		(property "Reference" "R7"
+			(at 95.25 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 95.25 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 92.71 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "0803bcdb-eec4-4c75-8cd0-87cabf55c3cb")
+		)
+		(pin "1"
+			(uuid "7facfdc7-171b-48ae-840b-c8d2e9734c0b")
+		)
+		(instances
+			(project "usb-sniffer"
+				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4161,6 +4364,76 @@
 			(project "usb-sniffer"
 				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
 					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 92.71 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3b557b76-2cd3-4f8e-8e15-2c3b59b6b4c0")
+		(property "Reference" "C14"
+			(at 95.25 85.0962 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 95.25 87.6362 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 92.71 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "987eb319-7c40-458b-bb51-f0f2be862ac7")
+		)
+		(pin "1"
+			(uuid "49196606-f2f3-4999-b07d-35b8337d7f81")
+		)
+		(instances
+			(project "usb-sniffer"
+				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -5211,6 +5484,72 @@
 			(project "usb-sniffer"
 				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
 					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 92.71 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86bd0454-73aa-402a-afec-d422f88ba544")
+		(property "Reference" "#PWR034"
+			(at 92.71 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 92.71 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 92.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 92.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 92.71 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55c8f15b-3da3-41b3-b570-6e78e64acc53")
+		)
+		(instances
+			(project "usb-sniffer"
+				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
