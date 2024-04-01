@@ -5,6 +5,108 @@
 	(uuid "ad71cc93-4eaf-46fa-b1db-730fdf52c36f")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:C"
 			(pin_numbers hide)
 			(pin_names
@@ -2399,6 +2501,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 121.92) (xy 52.07 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23006d1c-4b3b-4d6c-ba9c-c476f6a39a48")
+	)
+	(wire
+		(pts
 			(xy 162.56 48.26) (xy 158.75 48.26)
 		)
 		(stroke
@@ -2446,6 +2558,16 @@
 			(type default)
 		)
 		(uuid "32c0f7b3-5400-497e-9013-9238f752dfb8")
+	)
+	(wire
+		(pts
+			(xy 48.26 127) (xy 54.61 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33fa44a4-9bb1-4fb9-9a83-2ef13501192c")
 	)
 	(wire
 		(pts
@@ -2599,6 +2721,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 137.16) (xy 52.07 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5681b9da-8a73-4dc7-bd06-1581762c43dc")
+	)
+	(wire
+		(pts
 			(xy 162.56 60.96) (xy 158.75 60.96)
 		)
 		(stroke
@@ -2736,6 +2868,16 @@
 			(type default)
 		)
 		(uuid "6bbd93e7-391d-4562-a932-36d7fe274335")
+	)
+	(wire
+		(pts
+			(xy 48.26 132.08) (xy 54.61 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c81eb29-2412-4b8a-bee7-f1dfedad1c7f")
 	)
 	(wire
 		(pts
@@ -2896,6 +3038,16 @@
 			(type default)
 		)
 		(uuid "976abcea-c536-449c-9b39-6e0d2a684407")
+	)
+	(wire
+		(pts
+			(xy 52.07 137.16) (xy 52.07 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a800400-d76d-4cc2-9fc1-376f14065b2e")
 	)
 	(wire
 		(pts
@@ -3269,6 +3421,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 121.92) (xy 52.07 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e216e8cc-7044-414b-976f-0bc5ba4eaa17")
+	)
+	(wire
+		(pts
 			(xy 127 173.99) (xy 127 175.26)
 		)
 		(stroke
@@ -3388,6 +3550,28 @@
 		)
 		(uuid "08b3067b-8184-4cdc-97fb-3ccb0433b23f")
 	)
+	(label "A1"
+		(at 210.82 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "17536f81-be1e-4ada-bd4f-5e8d64642f88")
+	)
+	(label "~{RESET}"
+		(at 54.61 132.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "481dc1f7-8b79-475c-9134-4904b7fe8199")
+	)
 	(label "SCL"
 		(at 257.81 118.11 180)
 		(fields_autoplaced yes)
@@ -3409,6 +3593,17 @@
 			(justify right bottom)
 		)
 		(uuid "6a08ed03-0f50-4904-a1bc-6aca90d78e35")
+	)
+	(label "A1"
+		(at 54.61 127 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76e12e5b-a0fd-4db5-9196-606eb13e3407")
 	)
 	(label "SDA"
 		(at 118.11 116.84 0)
@@ -3964,6 +4159,70 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "095b159e-4091-4e2e-8be5-31a584de1536")
+		(property "Reference" "TP9"
+			(at 41.656 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test"
+			(at 44.958 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 48.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6f345b7a-b5a9-47d6-9994-e9f48bf4f4b1")
+		)
+		(instances
+			(project "usb-sniffer"
+				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
+					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 21.59 179.07 0)
 		(unit 1)
@@ -4434,6 +4693,70 @@
 			(project "usb-sniffer"
 				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
 					(reference "C14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "43213534-acaf-4302-9d74-c117654711f0")
+		(property "Reference" "TP10"
+			(at 41.656 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test"
+			(at 44.958 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14d59b85-a49e-4ec9-9bfa-b4c4aa111c9b")
+		)
+		(instances
+			(project "usb-sniffer"
+				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -5550,6 +5873,72 @@
 			(project "usb-sniffer"
 				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
 					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 52.07 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "88f65609-2fe6-4a3e-bea0-abb0c0de6f02")
+		(property "Reference" "#PWR0110"
+			(at 52.07 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 52.07 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 52.07 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9ffcb412-adaf-4b0d-8873-e88224b1065c")
+		)
+		(instances
+			(project "usb-sniffer"
+				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -6724,6 +7113,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 52.07 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbf17ffe-3d62-4054-adb5-307b0e858f6b")
+		(property "Reference" "#PWR0109"
+			(at 52.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 52.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 52.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 52.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 52.07 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cc7df222-1c5d-4284-a04c-6377650ef3a7")
+		)
+		(instances
+			(project "usb-sniffer"
+				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
+					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 90.17 184.15 0)
 		(unit 1)
@@ -6988,6 +7443,134 @@
 			(project "usb-sniffer"
 				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4ebf7c6-57eb-42ec-8193-f4741f243216")
+		(property "Reference" "TP11"
+			(at 41.656 132.08 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test"
+			(at 44.958 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 48.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9b630590-6376-45ee-8337-f74b8a2c2feb")
+		)
+		(instances
+			(project "usb-sniffer"
+				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 48.26 137.16 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ef032f67-ed11-42ff-9b42-c68a71f6892c")
+		(property "Reference" "TP12"
+			(at 41.656 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test"
+			(at 44.958 134.62 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 48.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 48.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93e453ef-eb15-4628-9fd4-b8d5bb839ce7")
+		)
+		(instances
+			(project "usb-sniffer"
+				(path "/91bfdd5f-8c45-4e1a-8627-d8a64e62babb/9829920e-608c-48b7-8757-c2106f457830"
+					(reference "TP12")
 					(unit 1)
 				)
 			)

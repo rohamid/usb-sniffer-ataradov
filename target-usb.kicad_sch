@@ -2998,6 +2998,7 @@
 	(hierarchical_label "DATA7"
 		(shape bidirectional)
 		(at 102.87 78.74 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3009,6 +3010,7 @@
 	(hierarchical_label "STP"
 		(shape input)
 		(at 102.87 83.82 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3020,6 +3022,7 @@
 	(hierarchical_label "DP"
 		(shape bidirectional)
 		(at 54.61 63.5 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3055,6 +3058,7 @@
 	(hierarchical_label "DATA6"
 		(shape bidirectional)
 		(at 102.87 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3066,6 +3070,7 @@
 	(hierarchical_label "DATA5"
 		(shape bidirectional)
 		(at 102.87 73.66 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3077,6 +3082,7 @@
 	(hierarchical_label "DATA2"
 		(shape bidirectional)
 		(at 102.87 66.04 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3088,6 +3094,7 @@
 	(hierarchical_label "CLK"
 		(shape output)
 		(at 102.87 58.42 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3108,18 +3115,6 @@
 		)
 		(uuid "5e102640-3497-4259-a2f6-63f10fcfe5bc")
 	)
-	(hierarchical_label "DM"
-		(shape bidirectional)
-		(at 190.5 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "65ba4f6e-0c17-4846-9aa2-ebeca93535b9")
-	)
 	(hierarchical_label "CMD_DP_2"
 		(shape output)
 		(at 214.63 102.87 0)
@@ -3131,6 +3126,18 @@
 			(justify left)
 		)
 		(uuid "6842efef-647d-4723-a0af-30950cf57aa5")
+	)
+	(hierarchical_label "DN"
+		(shape bidirectional)
+		(at 190.5 54.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "741951fb-d4e7-4df3-aa0d-cd4111d9c19d")
 	)
 	(hierarchical_label "DP"
 		(shape bidirectional)
@@ -3156,21 +3163,10 @@
 		)
 		(uuid "7fbc6706-aae3-485a-9769-5a3d383d59f9")
 	)
-	(hierarchical_label "DM"
-		(shape bidirectional)
-		(at 190.5 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "8071f9a1-894f-44b4-bf26-12b34f80950e")
-	)
 	(hierarchical_label "DIR"
 		(shape output)
 		(at 102.87 81.28 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3178,18 +3174,6 @@
 			(justify left)
 		)
 		(uuid "8d69109e-88dc-40d3-8c81-1203f1580f44")
-	)
-	(hierarchical_label "DM"
-		(shape bidirectional)
-		(at 190.5 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "906e0309-3195-4cf1-a212-366797f97f65")
 	)
 	(hierarchical_label "DP"
 		(shape bidirectional)
@@ -3218,6 +3202,7 @@
 	(hierarchical_label "DATA4"
 		(shape bidirectional)
 		(at 102.87 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3229,6 +3214,7 @@
 	(hierarchical_label "VBUS"
 		(shape input)
 		(at 54.61 60.96 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3252,6 +3238,7 @@
 	(hierarchical_label "DATA1"
 		(shape bidirectional)
 		(at 102.87 63.5 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3260,9 +3247,10 @@
 		)
 		(uuid "a41734ef-77e6-4955-b62e-c44702f0bb11")
 	)
-	(hierarchical_label "DM"
+	(hierarchical_label "DN"
 		(shape bidirectional)
 		(at 54.61 66.04 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3271,9 +3259,22 @@
 		)
 		(uuid "c224cec1-aa06-4d14-922c-e880d86dcdcd")
 	)
+	(hierarchical_label "DN"
+		(shape bidirectional)
+		(at 190.5 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cc68ff5d-71a2-4e83-9aff-87c685d0fe2a")
+	)
 	(hierarchical_label "DATA0"
 		(shape bidirectional)
 		(at 102.87 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3285,6 +3286,7 @@
 	(hierarchical_label "NXT"
 		(shape output)
 		(at 102.87 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3293,9 +3295,22 @@
 		)
 		(uuid "d74d60ed-1e2f-4729-95e2-a6165b4141ab")
 	)
+	(hierarchical_label "DN"
+		(shape bidirectional)
+		(at 190.5 115.57 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f54f5bcb-d200-4300-bc5a-e78dc1efc941")
+	)
 	(hierarchical_label "DATA3"
 		(shape bidirectional)
 		(at 102.87 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3986,28 +4001,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "58276d8b-b72f-4e8e-be0c-a4a1166f88ee")
+			(uuid "58276d8b-b72f-4e8e-be0c-a4a1166f88ef")
 		)
 		(pin "7"
-			(uuid "bdca7ac6-f6fa-44ad-9515-93f6a0ad77c3")
+			(uuid "bdca7ac6-f6fa-44ad-9515-93f6a0ad77c4")
 		)
 		(pin "8"
-			(uuid "b878ed78-7e73-4c0b-84f6-1aeaf14c162c")
+			(uuid "b878ed78-7e73-4c0b-84f6-1aeaf14c162d")
 		)
 		(pin "3"
-			(uuid "61b4033d-45d2-476f-8110-43e52df00415")
+			(uuid "61b4033d-45d2-476f-8110-43e52df00416")
 		)
 		(pin "4"
-			(uuid "a80fc5dd-5032-4817-a124-654ad1d2aa4a")
+			(uuid "a80fc5dd-5032-4817-a124-654ad1d2aa4b")
 		)
 		(pin "2"
-			(uuid "3734d670-eaa1-4592-a00c-da9663d6d404")
+			(uuid "3734d670-eaa1-4592-a00c-da9663d6d405")
 		)
 		(pin "1"
-			(uuid "acf61c21-f19b-4d56-b61b-92bb607f8ff7")
+			(uuid "acf61c21-f19b-4d56-b61b-92bb607f8ff8")
 		)
 		(pin "5"
-			(uuid "061bbbe1-f3d0-46ef-803f-f417f5ddfabd")
+			(uuid "061bbbe1-f3d0-46ef-803f-f417f5ddfabe")
 		)
 		(instances
 			(project "usb-sniffer"
@@ -4983,28 +4998,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "f0cca9a6-aefc-4d82-be9e-a8ebfde48a43")
+			(uuid "f0cca9a6-aefc-4d82-be9e-a8ebfde48a44")
 		)
 		(pin "6"
-			(uuid "6825ade9-c2eb-4488-baf5-4ed3e7214ecd")
+			(uuid "6825ade9-c2eb-4488-baf5-4ed3e7214ece")
 		)
 		(pin "1"
-			(uuid "4242afd3-ab55-47c2-8f14-b262dc1a4d4a")
+			(uuid "4242afd3-ab55-47c2-8f14-b262dc1a4d4b")
 		)
 		(pin "7"
-			(uuid "d43115f6-8f33-4899-9c9e-516734199847")
+			(uuid "d43115f6-8f33-4899-9c9e-516734199848")
 		)
 		(pin "2"
-			(uuid "7cf5680a-ee31-4884-8f67-1a4ba5298213")
+			(uuid "7cf5680a-ee31-4884-8f67-1a4ba5298214")
 		)
 		(pin "3"
-			(uuid "850c5e2b-d7a3-48a0-afa8-d32091d23be6")
+			(uuid "850c5e2b-d7a3-48a0-afa8-d32091d23be7")
 		)
 		(pin "4"
-			(uuid "f82edfe7-f0f7-4369-83c5-e50d2ef39582")
+			(uuid "f82edfe7-f0f7-4369-83c5-e50d2ef39583")
 		)
 		(pin "5"
-			(uuid "5565c612-f690-4100-831f-ad4f2fcfb689")
+			(uuid "5565c612-f690-4100-831f-ad4f2fcfb68a")
 		)
 		(instances
 			(project "usb-sniffer"
@@ -5738,28 +5753,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "41f6d3c3-fd29-43ad-8dea-b71d7ac3cf9d")
+			(uuid "41f6d3c3-fd29-43ad-8dea-b71d7ac3cf9e")
 		)
 		(pin "1"
-			(uuid "ca3e9e8f-c591-45aa-b742-bfbae1c00bf6")
+			(uuid "ca3e9e8f-c591-45aa-b742-bfbae1c00bf7")
 		)
 		(pin "8"
-			(uuid "30e807ca-a094-470e-9add-8805659ed68e")
+			(uuid "30e807ca-a094-470e-9add-8805659ed68f")
 		)
 		(pin "3"
-			(uuid "8a995eec-6b2a-4615-a52d-904c81dcd78c")
+			(uuid "8a995eec-6b2a-4615-a52d-904c81dcd78d")
 		)
 		(pin "2"
-			(uuid "cde5fcbd-d225-48e3-b6f3-835c164c180b")
+			(uuid "cde5fcbd-d225-48e3-b6f3-835c164c180c")
 		)
 		(pin "6"
-			(uuid "e9e95f77-81dd-4929-8d63-462937b3123b")
+			(uuid "e9e95f77-81dd-4929-8d63-462937b3123c")
 		)
 		(pin "4"
-			(uuid "b0f2d807-18c5-4a6c-bf70-5fa51e4904fd")
+			(uuid "b0f2d807-18c5-4a6c-bf70-5fa51e4904fe")
 		)
 		(pin "5"
-			(uuid "02f5da16-56b1-407e-bca4-93bf2466a658")
+			(uuid "02f5da16-56b1-407e-bca4-93bf2466a659")
 		)
 		(instances
 			(project "usb-sniffer"
@@ -6297,28 +6312,28 @@
 			)
 		)
 		(pin "7"
-			(uuid "41f6d3c3-fd29-43ad-8dea-b71d7ac3cf9d")
+			(uuid "41f6d3c3-fd29-43ad-8dea-b71d7ac3cf9f")
 		)
 		(pin "1"
-			(uuid "ca3e9e8f-c591-45aa-b742-bfbae1c00bf6")
+			(uuid "ca3e9e8f-c591-45aa-b742-bfbae1c00bf8")
 		)
 		(pin "8"
-			(uuid "30e807ca-a094-470e-9add-8805659ed68e")
+			(uuid "30e807ca-a094-470e-9add-8805659ed690")
 		)
 		(pin "3"
-			(uuid "8a995eec-6b2a-4615-a52d-904c81dcd78c")
+			(uuid "8a995eec-6b2a-4615-a52d-904c81dcd78e")
 		)
 		(pin "2"
-			(uuid "cde5fcbd-d225-48e3-b6f3-835c164c180b")
+			(uuid "cde5fcbd-d225-48e3-b6f3-835c164c180d")
 		)
 		(pin "6"
-			(uuid "e9e95f77-81dd-4929-8d63-462937b3123b")
+			(uuid "e9e95f77-81dd-4929-8d63-462937b3123d")
 		)
 		(pin "4"
-			(uuid "b0f2d807-18c5-4a6c-bf70-5fa51e4904fd")
+			(uuid "b0f2d807-18c5-4a6c-bf70-5fa51e4904ff")
 		)
 		(pin "5"
-			(uuid "02f5da16-56b1-407e-bca4-93bf2466a658")
+			(uuid "02f5da16-56b1-407e-bca4-93bf2466a65a")
 		)
 		(instances
 			(project "usb-sniffer"
@@ -6583,28 +6598,28 @@
 			)
 		)
 		(pin "6"
-			(uuid "58276d8b-b72f-4e8e-be0c-a4a1166f88ee")
+			(uuid "58276d8b-b72f-4e8e-be0c-a4a1166f88f0")
 		)
 		(pin "7"
-			(uuid "bdca7ac6-f6fa-44ad-9515-93f6a0ad77c3")
+			(uuid "bdca7ac6-f6fa-44ad-9515-93f6a0ad77c5")
 		)
 		(pin "8"
-			(uuid "b878ed78-7e73-4c0b-84f6-1aeaf14c162c")
+			(uuid "b878ed78-7e73-4c0b-84f6-1aeaf14c162e")
 		)
 		(pin "3"
-			(uuid "61b4033d-45d2-476f-8110-43e52df00415")
+			(uuid "61b4033d-45d2-476f-8110-43e52df00417")
 		)
 		(pin "4"
-			(uuid "a80fc5dd-5032-4817-a124-654ad1d2aa4a")
+			(uuid "a80fc5dd-5032-4817-a124-654ad1d2aa4c")
 		)
 		(pin "2"
-			(uuid "3734d670-eaa1-4592-a00c-da9663d6d404")
+			(uuid "3734d670-eaa1-4592-a00c-da9663d6d406")
 		)
 		(pin "1"
-			(uuid "acf61c21-f19b-4d56-b61b-92bb607f8ff7")
+			(uuid "acf61c21-f19b-4d56-b61b-92bb607f8ff9")
 		)
 		(pin "5"
-			(uuid "061bbbe1-f3d0-46ef-803f-f417f5ddfabd")
+			(uuid "061bbbe1-f3d0-46ef-803f-f417f5ddfabf")
 		)
 		(instances
 			(project "usb-sniffer"
@@ -7424,28 +7439,28 @@
 			)
 		)
 		(pin "8"
-			(uuid "f0cca9a6-aefc-4d82-be9e-a8ebfde48a43")
+			(uuid "f0cca9a6-aefc-4d82-be9e-a8ebfde48a45")
 		)
 		(pin "6"
-			(uuid "6825ade9-c2eb-4488-baf5-4ed3e7214ecd")
+			(uuid "6825ade9-c2eb-4488-baf5-4ed3e7214ecf")
 		)
 		(pin "1"
-			(uuid "4242afd3-ab55-47c2-8f14-b262dc1a4d4a")
+			(uuid "4242afd3-ab55-47c2-8f14-b262dc1a4d4c")
 		)
 		(pin "7"
-			(uuid "d43115f6-8f33-4899-9c9e-516734199847")
+			(uuid "d43115f6-8f33-4899-9c9e-516734199849")
 		)
 		(pin "2"
-			(uuid "7cf5680a-ee31-4884-8f67-1a4ba5298213")
+			(uuid "7cf5680a-ee31-4884-8f67-1a4ba5298215")
 		)
 		(pin "3"
-			(uuid "850c5e2b-d7a3-48a0-afa8-d32091d23be6")
+			(uuid "850c5e2b-d7a3-48a0-afa8-d32091d23be8")
 		)
 		(pin "4"
-			(uuid "f82edfe7-f0f7-4369-83c5-e50d2ef39582")
+			(uuid "f82edfe7-f0f7-4369-83c5-e50d2ef39584")
 		)
 		(pin "5"
-			(uuid "5565c612-f690-4100-831f-ad4f2fcfb689")
+			(uuid "5565c612-f690-4100-831f-ad4f2fcfb68b")
 		)
 		(instances
 			(project "usb-sniffer"
